@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Leckerli+One&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Leckerli+One&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --SubHead: hsl(14, 45%, 36%);
+  --Preparation-color: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --Headline: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
+  --card-Preparation: hsl(332, 52%, 95%);
+}
+
+body {
+  background-color: var(--Wenge-Brown);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  color: var(--Dark-Charcoal);
+}
+
+p {
+  font-size: 14px;
+}
+
+hr {
+  border-color: rgba(0, 0, 0, 0.3);
+  border-width: 0.1px;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+.img-container img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.headline-menu h1 {
+  font-weight: 400;
+  font-family: "Young Serif", sans-serif;
+  margin: 1rem 0;
+  color: var(--Preparation-color);
+}
+
+.headline-menu p {
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.preparation-time-card {
+  background-color: var(--card-Preparation);
+  padding: 20px 30px;
+  border-radius: 10px;
+  line-height: 2rem;
+}
+
+.preparation-time-card h3 {
+  color: var(--Preparation-color);
+}
+
+.ingredients-card {
+  padding: 1.5rem 0;
+  line-height: 2rem;
+}
+
+.ingredients-card h2 {
+  margin-bottom: 1rem;
+  font-family: "Young Serif", sans-serif;
+  color: var(--SubHead);
+  font-weight: 400;
+}
+
+.instructions-card {
+  padding: 1.5rem 0;
+}
+
+.instructions-card h2 {
+  margin-bottom: 0.7rem;
+  font-family: "Young Serif", sans-serif;
+  color: var(--SubHead);
+  font-weight: 400;
+}
+
+.item {
+  display: flex;
+  gap: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.nutrition-card {
+  padding: 1.5rem 0;
+}
+
+.nutrition-card h2 {
+  margin-bottom: 0.7rem;
+  font-family: "Young Serif", sans-serif;
+  color: var(--SubHead);
+  font-weight: 400;
+}
+
+.nutrition-card p {
+  font-size: 14px;
+  margin-bottom: 0.7rem;
+}
+
+.nutrition-table .item-layout{
+  display: flex;
+  border-bottom: 1px solid var(--Light-Grey);
+  padding: 0.5rem;
+}
+
+.nutrition-table .item-layout:last-child {
+  border: none;
+}
+
+.nutrition-table .item-layout b {
+  color: var(--SubHead);
+}
+
+.item-layout p{
+  margin: 0;
+}
+
+.nutrition-table .item-layout >* {
+  width: 100px;
+  margin-right: auto;
+}

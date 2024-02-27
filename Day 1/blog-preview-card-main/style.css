@@ -1,0 +1,75 @@
+body {
+      max-width: 100dvw;
+      width: 100%;
+      min-height: 100vh;
+      overflow-x: hidden;
+      background: hsl(47, 88%, 63%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      font-size: 15px;
+      font-family: 'Figtree', sans-serif;
+}
+
+main.container {
+      width: 375px;
+      height: 500px;
+      background: hsl(0, 0%, 100%);
+      border-radius: 12px;
+      padding: 20px;
+      border: 2px solid black;
+      box-shadow: 10px 10px;
+}
+
+img {
+      border-radius: 12px;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+}
+
+.learning {
+      display: inline-block;
+      width: auto;
+      padding: 7px 12px;
+      background-color: hsl(47, 88%, 63%);
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      border-radius: 3px;
+}
+
+.pubDate {
+      font-weight: 500;
+}
+
+.headFound {
+      color: hsl(47, 88%, 63%);
+      cursor: pointer;
+      font-weight: bold;
+}
+
+.sub-title{
+      font-size: 16px;
+      padding-right: 7px;
+      line-height: 1.5rem;
+      color: hsl(0, 0%, 50%);
+}
+
+.humenImg {
+      display: flex;
+      align-items: center;
+}
+
+.profileImg {
+      width: 35px;
+      height: 35px;
+      margin: 1rem 0;
+}
+
+.profileName {
+      font-weight: bold;
+      margin: 1rem;
+}

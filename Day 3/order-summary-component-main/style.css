@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    background-color: #fff;
+    width: 375px;
+    height: 600px;
+    box-shadow: 5px 5px 20px rgb(217, 217, 217);
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.title h1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.desc {
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 1.5rem;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    font-weight: lighter;
+}
+
+.price-wrapper {
+    margin: 1rem 2rem 2rem 2rem;
+    background-color: hsl(225, 100%, 98%);
+    height: 80px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.img-music {
+    margin-left: 1rem;
+}
+
+.cus-name {
+    margin-bottom: 0.2rem;
+}
+
+.name-and-price {
+    margin: 0 1rem 0 1rem;
+}
+
+.change-button {
+    margin-left: auto;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.change-button a:hover {
+    text-decoration: none;
+}
+
+.change-button:hover {
+    color: hsl(245, 75%, 52%);
+}
+
+.payment-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.8rem 6rem;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    cursor: pointer;
+    flex-direction: column;
+    transition: 0.3s;
+    
+}
+
+.payment-button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 3px 5px rgb(199, 199, 199);
+}
+
+.payment-button a {
+    text-decoration: none;
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+}
+
+.cancel-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    padding: 0.8rem 6rem;
+    text-align: center;
+}
+
+.cancel-button a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+}

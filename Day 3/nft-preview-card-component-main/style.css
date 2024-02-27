@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100dvw;
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.product-card {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 5px 5px 15px;
+    border-radius: 10px;
+    flex-direction: column;
+    
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.img img {
+    width: 88%; 
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product-name {
+    color: #fff;
+    margin: 1rem 1.5rem 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.product-name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.product-desc {
+    color: hsl(215, 51%, 70%);
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.etn-wrapper {
+    display: flex;
+    width: 100px;
+}
+
+.date {
+    display: flex;
+    width: 100px;
+}
+
+.eth {
+    width: auto;
+    height: 16px;
+    margin-right: 0.5rem;
+}
+
+.normal-price {
+    color: hsl(178, 100%, 50%);
+}
+
+.date-time {
+    color: hsl(215, 51%, 70%);
+}
+
+.clock {
+    width: auto;
+    height: 16px;
+    margin-right: 0.5rem;
+}
+.line {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: hsl(215, 32%, 27%);
+    width: 80%;
+    height: 1px;
+}
+
+.user-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.user-img {
+    width: 25px;
+    height: auto;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.user-name {
+    font-size: 14px;
+    color: #fff;
+}
+
+.user-name p {
+    color: hsl(215, 51%, 70%);
+    font-weight: lighter;
+}
+
+.user-name b {
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.user-name b:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+

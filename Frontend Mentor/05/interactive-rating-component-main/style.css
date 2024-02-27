@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ### Primary
+
+- Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+body {
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+p {
+  line-height: 1.8;
+}
+
+.main-container, .thank-you {
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  max-width: 400px;
+}
+
+.main-container img {
+  background-color: hsl(220, 9%, 27%);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.main-container h1 {
+  color: #fff;
+  margin: 2rem 0 1rem;
+}
+
+.main-container p {
+  color: hsl(217, 12%, 63%);
+}
+
+.main-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin:2rem 0;
+}
+
+.main-container ul li button{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(220, 9%, 27%);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit {
+  background-color: hsl(25, 97%, 53%);
+  width: 100%;
+  padding: 0.8rem 0 0.6rem;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit:hover{
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.thank-you img{
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+.thank-you p.gray {
+  background-color: hsl(220, 9%, 27%);
+  border-radius: 30px;
+  color: hsl(25, 97%, 53%);
+  display: inline-block;
+  text-align: center;
+  padding: 0.2rem 0.5rem 0;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.thank-you h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.thank-you p {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-container ul li button:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.main-container ul li button:focus {
+  background-color: hsl(217, 12%, 63%);
+}
